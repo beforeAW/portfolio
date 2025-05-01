@@ -15,5 +15,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  title: string = 'Your Portfolio';
+  title: string = 'Albin Wrebo';
 }
