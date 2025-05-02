@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  title: string = 'Created by Albin Wrebo';
+  year: string = '2025';
 }
