@@ -5,10 +5,11 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    fontFamily: {
-      'roboto': ['Roboto', 'sans-serif'],
+    extend: {
+          fontFamily: {
+            'sans': ['Roboto', 'sans-serif'],
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
